@@ -9,6 +9,10 @@ Precisamos criar uma maneira para que estes dados sejam importados para um banco
 
 Sua tarefa é criar uma interface web que aceite upload do [arquivo CNAB](https://github.com/ByCodersTec/desafio-ruby-on-rails/blob/master/CNAB.txt), normalize os dados e armazene-os em um banco de dados relacional e exiba essas informações em tela.
 
+# Solução postosta
+
+implementar a rest api com spring boot e front end com vuejs
+
 **Sua aplicação web DEVE:**
 
 - [x] 1.  Ter uma tela (via um formulário)
@@ -62,20 +66,20 @@ Sua tarefa é criar uma interface web que aceite upload do [arquivo CNAB](https:
 
 ## Subindo a aplicacao
 
-Primeira mente tens de estar o diretorrio **raiz(desafio-dev)**
+Primeiramente tens de estar o diretorrio **raiz(desafio-dev)**
 e rodar o comndo abaixo para subir o **container do postgres com o docker**
 
 ```
  docker-compose up
 ```
 
-Para subir a aplicação(Backend) roda o comando abaixo
+Para subir a aplicação(Backend) certifique de estar o diretorio correcto **(backend)** roda o comando abaixo
 
 ```
  mvn spring-boot:run
 ```
 
-Para subir a aplicação(Frontend) roda o comando abaixo
+Para subir a aplicação(Frontend) certifique de estar o diretorio correcto **(frontend)** roda o comando abaixo
 
 ```
  yarn dev
